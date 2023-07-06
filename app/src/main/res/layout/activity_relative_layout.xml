@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RelativeLayout">
+
+    <ImageView
+        android:id="@+id/igView1"
+        android:layout_width="100dp"
+        android:layout_height="140dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="20sp"
+        android:background="#00BFA5"
+        android:src="@drawable/ig_man"
+        />
+
+    <ImageView
+        android:id="@+id/igView2"
+        android:layout_width="100dp"
+        android:layout_height="140dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="20sp"
+        android:background="#00BFA5"
+        android:src="@drawable/ig_man"
+        />
+
+    <ImageView
+        android:id="@+id/igView3"
+        android:layout_width="100dp"
+        android:layout_height="140dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="20sp"
+        android:layout_marginTop="20sp"
+        android:background="#00BFA5"
+        android:src="@drawable/ig_man"
+        />
+
+    <ImageView
+        android:id="@+id/igView4"
+        android:layout_width="160dp"
+        android:layout_height="140dp"
+        android:layout_below="@+id/igView1"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="50sp"
+        android:background="#EED50000"
+        android:src="@drawable/ig_left" />
+
+    <ImageView
+        android:id="@+id/igView5"
+        android:layout_width="160dp"
+        android:layout_height="140dp"
+        android:layout_below="@+id/igView3"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20sp"
+        android:layout_marginTop="50sp"
+        android:background="#EED50000"
+        android:src="@drawable/ig_right" />
+
+    <ImageView
+        android:id="@+id/igView6"
+        android:layout_width="140dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/igView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="70sp"
+        android:background="#FFFFFF"
+        android:src="@drawable/ig_swap" />
+
+    <ImageView
+        android:id="@+id/igView7"
+        android:layout_width="300dp"
+        android:layout_height="140dp"
+        android:layout_below="@+id/igView4"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="50sp"
+        android:background="#FFD600"
+        android:src="@drawable/ig_button"
+        android:scaleType="fitEnd"
+        />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="120dp"
+        android:layout_below="@+id/igView7"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="50sp"
+        android:background="#304FFE"
+        android:src="@drawable/ig_toy" />
+
+</RelativeLayout>
